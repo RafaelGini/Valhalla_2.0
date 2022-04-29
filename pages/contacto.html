@@ -12,81 +12,86 @@
     <title>Valhalla | Contacto</title>
 
   </head>
-  <body id="formulario">
-      
-    <!-- ENCABEZADO -->
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
-        <div class="container-xl">
-
-          <a class="navbar-brand" href="../index.html"> 
-            <img src="../images/logo.png" alt="Valhalla logo" width="30" height="30" class="d-inline-block align-text-top">
-            <span class="ms-1"> Valhalla </span>
-          </a>
-
-          <button class="navbar-toggler light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon light"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link" href="../index.html">Inicio</a>
-              <a class="nav-link" href="heroesInformaticos.html">Heroés</a>
-              <a class="nav-link" href="odin.html">Odín</a>
-              <a class="nav-link" href="thor.html">Thor</a>
-              <a class="nav-link" href="../index.html#acerca">Acerca</a>
-              <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+  <body>
+    <div id="formulario">
+      <!-- ENCABEZADO -->
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+          <div class="container-xl">
+  
+            <a class="navbar-brand" href="../index.html"> 
+              <img src="../images/logo.png" alt="Valhalla logo" width="30" height="30" class="d-inline-block align-text-top">
+              <span class="ms-1"> Valhalla </span>
+            </a>
+  
+            <button class="navbar-toggler light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon light"></span>
+            </button>
+  
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link" href="../index.html">Inicio</a>
+                <a class="nav-link" href="heroesInformaticos.html">Heroés</a>
+                <a class="nav-link" href="odin.html">Odín</a>
+                <a class="nav-link" href="thor.html">Thor</a>
+                <a class="nav-link" href="../index.html#acerca">Acerca</a>
+                <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+              </div>
+  
             </div>
-
           </div>
-        </div>
-      </nav>
-    </header>
-
-    <!-- CONTENIDO -->
-    <div class="d-flex flex-column justify-content-between h-100">
-        <!-- FORMULARIO -->
-        <section class="d-flex justify-content-center">
-            <div id="contacto">
-                <form action="#">
-                    <fieldset class="container-fluid d-flex justify-content-center">
-                        <div class="fieldset-organizador">
-                            <legend> Danos Tu Opinion</legend>
-                            <label for="nombre"></label><br>
-                            <input type="text" name="nombre" required placeholder=" Tu Nombre" class="w-100"><br>
-                            <label for="email"></label><br>
-                            <input type="email" name="email" placeholder=" Tu Email" class="w-100"> <br> <br>
-                            <label for="">¿Te gusta el sitio?</label><br>
-                            <input type="radio" name="sexo" checked> Me gusta 
-                            <input type="radio" name="sexo"> Normal 
-                            <input type="radio" name="sexo"> Mejorable <br> <br>
-                            <textarea name="mensaje" cols="35" rows="7" placeholder=" Comenta Tu Opinion !" class="w-100"></textarea> <br>
-                            <input type="submit" value="Enviar" class="contacto-input">
-                            <input type="reset" value="Resetear" class="contacto-input">
-                        </div>
-                    </fieldset>
-                </form>
-            </div>
-            
-        </section>
-        <section class="valhalla-footer valhalla-footer-contacto">
-            <div class="valhalla-footer-container">
-    
-              <div class="valhalla-logo">
-                <a href="../index.html"><img src="../images/logo.png" alt="Valhalla logo"></a>
-                <a href="../index.html" class="valhalla-logo-text">Valhalla</a>
+        </nav>
+      </header>
+  
+      <!-- CONTENIDO -->
+      <div class="d-flex flex-column justify-content-between h-100">
+          <!-- FORMULARIO -->
+          <section class="d-flex justify-content-center">
+              <div id="contacto">
+                  <form action="#">
+                      <fieldset class="container-fluid d-flex justify-content-center">
+                          <div class="fieldset-organizador">
+                              <legend> Danos Tu Opinion</legend>
+                              <label for="nombre"></label><br>
+                              <input type="text" name="nombre" required placeholder=" Tu Nombre" class="w-100"><br>
+                              <label for="email"></label><br>
+                              <input type="email" name="email" placeholder=" Tu Email" class="w-100"> <br> <br>
+                              <label for="">¿Te gusta el sitio?</label><br>
+                              <input type="radio" name="sexo" checked> Me gusta 
+                              <input type="radio" name="sexo"> Normal 
+                              <input type="radio" name="sexo"> Mejorable <br> <br>
+                              <textarea name="mensaje" cols="35" rows="7" placeholder=" Comenta Tu Opinion !" class="w-100"></textarea> <br>
+                              <input type="submit" value="Enviar" class="contacto-input">
+                              <input type="reset" value="Resetear" class="contacto-input">
+                          </div>
+                      </fieldset>
+                  </form>
               </div>
-    
-              <div class="valhalla-footer-links">
-                  <a href="https://es.wikipedia.org/wiki/Valhalla" target="_blank" class="valhalla-footer-links">Informate</a>
-      
-                  <a href="contacto.html" class="valhalla-footer-links">Contactanos</a>
-                  
-              </div>
-            </div>
+              
           </section>
 
+          <section class="valhalla-footer valhalla-footer-contacto">
+              <div class="valhalla-footer-container">
+      
+                <div class="valhalla-logo">
+                  <a href="../index.html"><img src="../images/logo.png" alt="Valhalla logo"></a>
+                  <a href="../index.html" class="valhalla-logo-text">Valhalla</a>
+                </div>
+      
+                <div class="valhalla-footer-links">
+                    <a href="https://es.wikipedia.org/wiki/Valhalla" target="_blank" class="valhalla-footer-links">Informate</a>
+        
+                    <a href="contacto.html" class="valhalla-footer-links">Contactanos</a>
+                    
+                </div>
+              </div>
+            </section>
+  
+      </div>
+
     </div>
+  
+      
 
 
 
