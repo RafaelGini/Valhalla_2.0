@@ -1,309 +1,236 @@
-.carousel-inner{
-    max-height: 37rem;
-}
+@charset "UTF-8";
+/* PSEUDOELEMENTOS */
+body::-webkit-scrollbar {
+  width: 10px;
+  background: #414141; }
 
-body::-webkit-scrollbar{
-    width: 10px;
-    background: #414141 ;
-}
+body::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  border-right: 2px solid #414141; }
 
-body::-webkit-scrollbar-thumb{
-    background: rgba(255, 255, 255, .2) ;
-    border-radius: 5px;
-    border-right: 2px solid #414141;
-}
+/* BOX-MODELING Y TEXTO */
+.carousel-inner {
+  max-height: 37rem; }
 
-:root {
-    --main-bg-color: rgb(148, 76, 0);
-  }
+.rango-icon {
+  width: 60px; }
 
-.valhalla-color{
-    color: var(--main-bg-color);
-}
+.valhalla-color {
+  color: #944c00; }
 
-.rango-icon{
-    width: 60px;
-}
+.box-shadow {
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.5) !important; }
 
-.box-shadow{
-    box-shadow: 4px 4px 20px rgba(0,0,0,.5) !important;
-}
+.box-light-shadow {
+  box-shadow: 0px 15px 400px rgba(255, 255, 255, 0.7) !important; }
 
-.box-light-shadow{
-    box-shadow: 0px 15px 400px rgba(255,255,255,.7) !important;
-}
+#heroes-index {
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.5) !important; }
 
-#heroes-index{
-    box-shadow:  4px 4px 20px rgba(0,0,0,.5) !important;
-}
+.heroes-img {
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.5) !important; }
 
-.heroes-img{
-    box-shadow: 4px 4px 20px rgba(0,0,0,.5) !important;
-}
+.valhalla-button {
+  font-size: 1em;
+  font-weight: bold;
+  padding: 8px 20px;
+  border-radius: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  color: white;
+  background-color: #944c00;
+  transition: all .5s; }
 
-.valhalla-button{
-    font-size: 1em;
-    font-weight: bold;
-    padding: 8px 20px;
-    border-radius: 15px;
-    border: 1px solid rgba(0,0,0,.5);
-    box-shadow: 2px 2px 10px rgba(0,0,0,.5);
-    color: white;
-    background-color: var(--main-bg-color);
-}
+.valhalla-button:hover {
+  background-color: #683b01;
+  border: 1px solid rgba(200, 200, 200, 0.5); }
 
-.valhalla-button:hover{
-    background-color: rgb(104, 59, 1);
-    border: 1px solid rgba(200,200,200,.5);
-}
+.hI-deskHeight {
+  height: 500px; }
 
-.parallax-hI{
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,.7),
-        rgba(0,0,0,.7)
-    )
-    ,url("../images/hI.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    color: white;
-}
+.acerca-deskHeight {
+  height: 550px; }
 
-.hI-deskHeight{height: 500px;}
+#contacto {
+  margin-top: 120px; }
 
-.acerca-deskHeight{height: 550px;}
+#contacto fieldset {
+  padding: 0 50px 30px 50px;
+  color: rgba(200, 200, 200, 0.95);
+  background-color: rgba(200, 200, 200, 0.1);
+  border: 1px solid rgba(200, 200, 200, 0.1);
+  border-radius: 15px; }
 
-#formulario{
-    height: 850px;
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,.45),
-        rgba(0,0,0,.45)
-    )
-    ,url("../images/fantasíaFuturista_1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center 50px;
-    color: white;
-    border-top: 4px solid rgba(0,0,0,.7);
-    border-bottom: 4px solid rgba(0,0,0,.7);
-}
+.fieldset-organizador {
+  padding-top: 15px; }
 
-#contacto{
-    margin-top: 120px;
-}
+#contacto fieldset input {
+  background-color: rgba(200, 200, 200, 0.3);
+  border: 1px solid rgba(200, 200, 200, 0);
+  border-radius: 4px;
+  color: white;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.5s; }
 
+#contacto fieldset textarea {
+  background-color: rgba(200, 200, 200, 0.3);
+  border: 1px solid rgba(200, 200, 200, 0.1);
+  border-radius: 4px;
+  color: white;
+  transition: all 0.5s; }
 
-#contacto fieldset{
-    padding: 0 50px 30px 50px;
-    color: rgba(200,200,200, .95);
-    background-color: rgba(200,200,200,.1);
-    border: 1px solid rgba(200,200,200, 0.1);
-    border-radius: 15px;
-}
+.contacto-input {
+  width: 49%; }
 
-.fieldset-organizador{padding-top: 15px;}
+.fieldset-organizador {
+  padding-top: 15px; }
 
-#contacto fieldset input{
-    background-color:rgba(200,200,200,.3);
-    border: 1px solid rgba(200,200,200,.0);
-    border-radius: 4px;
-    color: white;
-    box-shadow: 2px 2px 4px rgba(0,0,0,.2);
-    transition: all 0.5s;
-}
+.valhalla-footer-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px; }
 
-#contacto fieldset input:hover{
-    background-color:rgba(200,200,200,.5);
-}
+.valhalla-logo {
+  display: flex;
+  align-items: center;
+  margin-left: 15px; }
 
-#contacto fieldset input:focus{
-    background-color:rgba(200,200,200,.5);
-}
+.valhalla-logo img {
+  width: 35px;
+  height: 35px; }
 
-#contacto fieldset textarea{
-    background-color:rgba(200,200,200,.3);
-    border: 1px solid rgba(200,200,200,.1);
-    border-radius: 4px;
-    color: white;
-    transition: all 0.5s;
-}
+.valhalla-logo-text {
+  font-weight: 400;
+  font-size: 1.4em;
+  margin: auto;
+  padding-left: 8px;
+  text-decoration: none;
+  color: #c8c8c8;
+  transition: color 0.5s; }
 
-.contacto-input{
-    width: 49%;
-}
+.valhalla-logo-text:hover {
+  color: white; }
 
-#contacto fieldset textarea:hover{background-color:rgba(200,200,200,.5);}
-#contacto fieldset textarea:focus{background-color:rgba(200,200,200,.5);}
-#contacto fieldset ::placeholder{color: rgba(200,200,200,.7);}
+.valhalla-footer-links-container {
+  margin-right: 15px; }
 
-.fieldset-organizador{padding-top: 15px;}
+.valhalla-footer-links {
+  padding: 0 5px !important;
+  text-decoration: none;
+  color: #c8c8c8;
+  transition: color 0.5s !important; }
 
-.valhalla-footer{
-    margin: 0;
-    height: 70px;
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,.7),
-        rgba(0,0,0,.7)
-    )
-    ,url("../images/valhalla2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center 200px;
-    background-attachment: fixed;
-    color: white;
-    border-top: 4px solid rgba(0,0,0,.7);
-    border-bottom: 4px solid rgba(0,0,0,.7);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+.valhalla-footer-links:hover {
+  color: white; }
 
-.valhalla-footer-container{
+/* BACKGROUNDS */
+.parallax-hI {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/hI.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white; }
+
+#contacto fieldset input:hover {
+  background-color: rgba(200, 200, 200, 0.5); }
+
+#contacto fieldset input:focus {
+  background-color: rgba(200, 200, 200, 0.5); }
+
+#contacto fieldset textarea:hover {
+  background-color: rgba(200, 200, 200, 0.5); }
+
+#contacto fieldset textarea:focus {
+  background-color: rgba(200, 200, 200, 0.5); }
+
+#contacto fieldset ::placeholder {
+  color: rgba(200, 200, 200, 0.7); }
+
+#formulario {
+  height: 850px;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../images/fantasíaFuturista_1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center 50px;
+  color: white;
+  border-top: 4px solid rgba(0, 0, 0, 0.7);
+  border-bottom: 4px solid rgba(0, 0, 0, 0.7); }
+
+.valhalla-footer {
+  margin: 0;
+  height: 70px;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/valhalla2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 200px;
+  background-attachment: fixed;
+  color: white;
+  border-top: 4px solid rgba(0, 0, 0, 0.7);
+  border-bottom: 4px solid rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.valhalla-footer-odin {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/odin2.jpg"); }
+
+.valhalla-footer-thor {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/thor.jpeg"); }
+
+.valhalla-footer-hI {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/hI.jpg"); }
+
+.valhalla-footer-contacto {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+  border: 0px;
+  background-position: center center; }
+
+/* MEDIA QUERY */
+@media (max-width: 768px) {
+  #intro, #AcercaValhalla, #intro-odin, #intro-thor, #stevejobs, #alanturing, #billgates, #snakamoto {
+    width: 90% !important; }
+  .heroes-fila {
+    width: 100% !important;
+    text-align: center; }
+  .valhalla-footer-container {
     width: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    max-width: 1200px;
-}
+    justify-content: center; }
+  .carousel-inner {
+    max-height: 40vh; }
+  .rango-icon {
+    width: 50px; }
+  .hI-deskHeight {
+    height: auto; }
+  .valhalla-footer {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-attachment: initial !important; }
+  .parallax-hI {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-attachment: initial !important; }
+  #formulario {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-attachment: initial !important; } }
 
-.valhalla-logo{
-    display: flex;
-    align-items: center;
-    margin-left: 15px;
-}
+@media (max-width: 576px) {
+  .icono-wrap {
+    flex-wrap: wrap;
+    justify-content: center !important; } }
 
-.valhalla-logo img{
-    width: 35px;
-    height: 35px;
-}
-
-.valhalla-logo-text{
-    font-weight: 400;
-    font-size: 1.4em;
-    margin: auto;
-    padding-left: 8px;
-    text-decoration: none;
-    color: rgb(200, 200, 200);
-    transition: color 0.5s;
-}
-
-.valhalla-logo-text:hover{
-    color: white;
-}
-
-.valhalla-footer-links-container{
-    margin-right: 15px;
-}
-
-.valhalla-footer-links{
-    padding: 0 5px !important;
-    text-decoration: none;
-    color: rgb(200, 200, 200);
-    transition: color 0.5s !important;
-}
-
-.valhalla-footer-links:hover{
-    color: white;
-}
-
-.valhalla-footer-odin{
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,.7),
-        rgba(0,0,0,.7)
-    )
-    ,url("../images/odin2.jpg");
-}
-
-.valhalla-footer-thor{
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,.7),
-        rgba(0,0,0,.7)
-    )
-    ,url("../images/thor.jpeg");
-}
-
-.valhalla-footer-hI{
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,.7),
-        rgba(0,0,0,.7)
-    )
-    ,url("../images/hI.jpg");
-}
-
-.valhalla-footer-contacto{
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,.0),
-        rgba(0,0,0,.0)
-    );
-    border: 0px;
-    background-position: center center;
-}
-
-@media (max-width:768px){
-
-    #intro, #AcercaValhalla, #intro-odin, #intro-thor, #stevejobs, #alanturing, #billgates, #snakamoto{
-        width: 90% !important;
-    }
-
-    .heroes-fila{
-        width: 100% !important;
-        text-align: center;
-    }
-
-    .valhalla-footer-container{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .carousel-inner{
-        max-height: 40vh;
-    }
-
-    .rango-icon{
-        width: 50px;
-    }
-
-    .hI-deskHeight{height: auto;}
-    .acerca-deskHeight{height: auto;}
-
-    .valhalla-footer{
-        background-repeat: no-repeat !important;
-        background-size: cover !important;
-        background-position: center !important;
-        background-attachment: initial !important;
-    }
-
-    .parallax-hI{
-        background-repeat: no-repeat !important;
-        background-size: cover !important;
-        background-position: center !important;
-        background-attachment: initial !important;
-    }
-
-    #formulario{
-        background-repeat: no-repeat !important;
-        background-size: cover !important;
-        background-position: center !important;
-        background-attachment: initial !important;
-    }
-}
-
-@media (max-width:576px){
-
-    .icono-wrap{
-        flex-wrap: wrap;
-        justify-content: center !important;
-    }
-}
+@media (max-width: 400px) {
+  .acerca-deskHeight {
+    height: auto;
+    padding: 50px 0px; } }

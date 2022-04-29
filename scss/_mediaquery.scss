@@ -1,0 +1,65 @@
+@media (max-width:768px){
+
+    #intro, #AcercaValhalla, #intro-odin, #intro-thor, #stevejobs, #alanturing, #billgates, #snakamoto{
+        width: 90% !important;
+    }
+
+    .heroes-fila{
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .valhalla-footer-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .carousel-inner{
+        max-height: 40vh;
+    }
+
+    .rango-icon{
+        width: 50px;
+    }
+
+    .hI-deskHeight{height: auto;}
+    
+    .valhalla-footer{
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        background-position: center !important;
+        background-attachment: initial !important;
+    }
+
+    .parallax-hI{
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        background-position: center !important;
+        background-attachment: initial !important;
+    }
+
+    #formulario{
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        background-position: center !important;
+        background-attachment: initial !important;
+    }
+
+}
+
+@media (max-width:576px){
+
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
+
+@media (max-width:400px){
+    .acerca-deskHeight{
+        height: auto;
+        padding: 50px 0px;}
+}

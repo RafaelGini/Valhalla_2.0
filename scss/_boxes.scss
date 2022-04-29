@@ -1,0 +1,140 @@
+$negro-opaco:rgba(0,0,0,.5);
+$blanco-opaco:rgba(200,200,200,.5);
+$valhalla-color: rgb(148, 76, 0);
+$valhalla-hover-color:rgb(104, 59, 1);
+
+.carousel-inner{
+    max-height: 37rem;
+}
+
+.rango-icon{
+    width: 60px;
+}
+
+.valhalla-color{
+    color: $valhalla-color;
+}
+
+.box-shadow{
+    box-shadow: 4px 4px 20px $negro-opaco !important;
+}
+
+.box-light-shadow{
+    box-shadow: 0px 15px 400px rgba(255,255,255,.7) !important;
+}
+
+#heroes-index{
+    box-shadow:  4px 4px 20px $negro-opaco  !important;
+}
+
+.heroes-img{
+    box-shadow: 4px 4px 20px $negro-opaco  !important;
+}
+
+.valhalla-button{
+    font-size: 1em;
+    font-weight: bold;
+    padding: 8px 20px;
+    border-radius: 15px;
+    border: 1px solid $negro-opaco;
+    box-shadow: 2px 2px 10px $negro-opaco;
+    color: white;
+    background-color: $valhalla-color;
+    transition: all .5s;
+}
+
+.valhalla-button:hover{
+    background-color: $valhalla-hover-color;
+    border: 1px solid $blanco-opaco;
+}
+
+.hI-deskHeight{height: 500px;}
+
+.acerca-deskHeight{height: 550px;}
+
+#contacto{
+    margin-top: 120px;
+}
+
+#contacto fieldset{
+    padding: 0 50px 30px 50px;
+    color: rgba(200,200,200, .95);
+    background-color: rgba(200,200,200,.1);
+    border: 1px solid rgba(200,200,200, 0.1);
+    border-radius: 15px;
+}
+
+.fieldset-organizador{padding-top: 15px;}
+
+#contacto fieldset input{
+    background-color:rgba(200,200,200,.3);
+    border: 1px solid rgba(200,200,200,.0);
+    border-radius: 4px;
+    color: white;
+    box-shadow: 2px 2px 4px rgba(0,0,0,.2);
+    transition: all 0.5s;
+}
+
+#contacto fieldset textarea{
+    background-color:rgba(200,200,200,.3);
+    border: 1px solid rgba(200,200,200,.1);
+    border-radius: 4px;
+    color: white;
+    transition: all 0.5s;
+}
+
+.contacto-input{
+    width: 49%;
+}
+
+.fieldset-organizador{padding-top: 15px;}
+
+.valhalla-footer-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+
+.valhalla-logo{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.valhalla-logo img{
+    width: 35px;
+    height: 35px;
+}
+
+.valhalla-logo-text{
+    font-weight: 400;
+    font-size: 1.4em;
+    margin: auto;
+    padding-left: 8px;
+    text-decoration: none;
+    color: rgb(200, 200, 200);
+    transition: color 0.5s;
+}
+
+.valhalla-logo-text:hover{
+    color: white;
+}
+
+.valhalla-footer-links-container{
+    margin-right: 15px;
+}
+
+.valhalla-footer-links{
+    padding: 0 5px !important;
+    text-decoration: none;
+    color: rgb(200, 200, 200);
+    transition: color 0.5s !important;
+}
+
+.valhalla-footer-links:hover{
+    color: white;
+}
+
+
