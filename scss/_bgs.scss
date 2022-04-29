@@ -1,4 +1,6 @@
 $negro-poco-opaco:rgba(0,0,0,.7);
+$negro-muy-opaco:rgba(0,0,0,.2);
+
 
 .parallax-hI{
     background-image: linear-gradient(
@@ -57,8 +59,6 @@ $negro-poco-opaco:rgba(0,0,0,.7);
     background-position: center 200px;
     background-attachment: fixed;
     color: white;
-    border-top: 4px solid $negro-poco-opaco;
-    border-bottom: 4px solid $negro-poco-opaco;
     display: flex;
     justify-content: center;
     align-items: center;

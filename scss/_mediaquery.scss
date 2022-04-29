@@ -48,6 +48,12 @@
         background-attachment: initial !important;
     }
 
+    .valhalla-footer{
+        background-image: none;
+        background-color: #212529;
+        height: 100px;
+    }
+
 }
 
 @media (max-width:576px){
@@ -55,6 +61,11 @@
     .icono-wrap{
         flex-wrap: wrap;
         justify-content: center !important;
+    }
+
+    .rango-icon{
+        width: 35px;
+        margin: 0 7px;
     }
 }
 

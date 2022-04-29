@@ -14,7 +14,8 @@ body::-webkit-scrollbar-thumb {
   max-height: 37rem; }
 
 .rango-icon {
-  width: 60px; }
+  width: 60px;
+  margin: 0 5px; }
 
 .valhalla-color {
   color: #944c00; }
@@ -170,8 +171,6 @@ body::-webkit-scrollbar-thumb {
   background-position: center 200px;
   background-attachment: fixed;
   color: white;
-  border-top: 4px solid rgba(0, 0, 0, 0.7);
-  border-bottom: 4px solid rgba(0, 0, 0, 0.7);
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -223,12 +222,19 @@ body::-webkit-scrollbar-thumb {
     background-repeat: no-repeat !important;
     background-size: cover !important;
     background-position: center !important;
-    background-attachment: initial !important; } }
+    background-attachment: initial !important; }
+  .valhalla-footer {
+    background-image: none;
+    background-color: #212529;
+    height: 100px; } }
 
 @media (max-width: 576px) {
   .icono-wrap {
     flex-wrap: wrap;
-    justify-content: center !important; } }
+    justify-content: center !important; }
+  .rango-icon {
+    width: 35px;
+    margin: 0 7px; } }
 
 @media (max-width: 400px) {
   .acerca-deskHeight {
