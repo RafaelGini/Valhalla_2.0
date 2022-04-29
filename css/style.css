@@ -14,7 +14,7 @@ body::-webkit-scrollbar-thumb{
 }
 
 :root {
-    --main-bg-color: rgb(159, 90, 0);
+    --main-bg-color: rgb(148, 76, 0);
   }
 
 .valhalla-color{
@@ -27,6 +27,10 @@ body::-webkit-scrollbar-thumb{
 
 .box-shadow{
     box-shadow: 4px 4px 20px rgba(0,0,0,.5) !important;
+}
+
+.box-light-shadow{
+    box-shadow: 0px 15px 400px rgba(255,255,255,.7) !important;
 }
 
 #heroes-index{
@@ -49,7 +53,7 @@ body::-webkit-scrollbar-thumb{
 }
 
 .valhalla-button:hover{
-    background-color: rgb(122, 69, 0);
+    background-color: rgb(104, 59, 1);
     border: 1px solid rgba(200,200,200,.5);
 }
 
@@ -59,7 +63,7 @@ body::-webkit-scrollbar-thumb{
         rgba(0,0,0,.7),
         rgba(0,0,0,.7)
     )
-    ,url("../images/26267-epicos.jpg");
+    ,url("../images/hI.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -67,16 +71,16 @@ body::-webkit-scrollbar-thumb{
     color: white;
 }
 
-.hI-deskHeight{
-    height: 500px;
-}
+.hI-deskHeight{height: 500px;}
+
+.acerca-deskHeight{height: 550px;}
 
 #formulario{
     height: 850px;
     background-image: linear-gradient(
         0deg,
-        rgba(0,0,0,.7),
-        rgba(0,0,0,.7)
+        rgba(0,0,0,.45),
+        rgba(0,0,0,.45)
     )
     ,url("../images/fantasíaFuturista_1.jpg");
     background-repeat: no-repeat;
@@ -146,7 +150,7 @@ body::-webkit-scrollbar-thumb{
         rgba(0,0,0,.7),
         rgba(0,0,0,.7)
     )
-    ,url("../images/17013-4k.jpg");
+    ,url("../images/valhalla2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 200px;
@@ -271,9 +275,8 @@ body::-webkit-scrollbar-thumb{
         width: 50px;
     }
 
-    .hI-deskHeight{
-        height: auto;
-    }
+    .hI-deskHeight{height: auto;}
+    .acerca-deskHeight{height: auto;}
 }
 
 @media (max-width:576px){
