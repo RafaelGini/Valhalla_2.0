@@ -277,6 +277,27 @@ body::-webkit-scrollbar-thumb{
 
     .hI-deskHeight{height: auto;}
     .acerca-deskHeight{height: auto;}
+
+    .valhalla-footer{
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        background-position: center !important;
+        background-attachment: initial !important;
+    }
+
+    .parallax-hI{
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        background-position: center !important;
+        background-attachment: initial !important;
+    }
+
+    #formulario{
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        background-position: center !important;
+        background-attachment: initial !important;
+    }
 }
 
 @media (max-width:576px){
