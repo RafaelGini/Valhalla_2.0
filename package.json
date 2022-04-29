@@ -1,0 +1,23 @@
+{
+  "name": "valhalla",
+  "version": "1.0.0",
+  "description": "![Valhalla logo](images/Captura_valhalla.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RafaelGini/Valhalla.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RafaelGini/Valhalla/issues"
+  },
+  "homepage": "https://github.com/RafaelGini/Valhalla#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
