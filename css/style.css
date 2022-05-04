@@ -271,9 +271,15 @@ body::-webkit-scrollbar-thumb {
     justify-content: center !important; }
   .rango-icon {
     width: 35px;
-    margin: 0 7px; } }
+    margin: 0 7px; }
+  .img-boxes {
+    width: 90px;
+    height: 90px; } }
 
 @media (max-width: 400px) {
   .acerca-deskHeight {
     height: auto;
-    padding: 50px 0px; } }
+    padding: 50px 0px; }
+  .img-boxes {
+    width: 75px;
+    height: 75px; } }

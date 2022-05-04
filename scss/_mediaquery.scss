@@ -71,10 +71,18 @@
         width: 35px;
         margin: 0 7px;
     }
+
+    .img-boxes{
+        @include SizeFormatter(90px, 90px);
+    }
 }
 
 @media (max-width:400px){
     .acerca-deskHeight{
         height: auto;
         padding: 50px 0px;}
+
+    .img-boxes{
+        @include SizeFormatter(75px, 75px);
+    }
 }
