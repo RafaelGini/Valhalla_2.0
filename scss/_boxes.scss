@@ -105,8 +105,7 @@ $valhalla-hover-color:rgb(104, 59, 1);
 }
 
 .valhalla-logo img{
-    width: 35px;
-    height: 35px;
+    @include SizeFormatter(35px, 35px);;
 }
 
 .valhalla-logo-text{
@@ -138,4 +137,6 @@ $valhalla-hover-color:rgb(104, 59, 1);
     color: white;
 }
 
-
+.img-boxes{
+    @include SizeFormatter(150px, 150px);
+}

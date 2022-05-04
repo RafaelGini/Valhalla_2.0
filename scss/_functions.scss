@@ -1,0 +1,39 @@
+@mixin SizeFormatter($width, $height){
+    width: $width;
+    height: $height;
+}
+
+$arr: (
+    primary:#0d6efd,
+    secondary:#6c757d,
+    succes:#198754,
+    danger:#dc3545,
+    warning:#ffc107
+);
+
+/*la extensión -v es de valhalla*/
+
+@each $name, $color in $arr{
+    .#{$name}-v{
+        background-color: $color;
+    }
+} 
+
+$spacer: .125rem;
+@for $i from 1 to 6{
+
+    @if $i != 4{
+        $spacer: $spacer * 2;
+
+        .m--#{$i}{
+            margin: $spacer;
+        }
+    }
+    @else {
+        .m--#{$i}{
+            $spacer:1.5;
+            margin: $spacer;
+        }
+    }
+
+}

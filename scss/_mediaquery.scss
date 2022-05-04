@@ -54,6 +54,10 @@
         height: 100px;
     }
 
+    .img-boxes{
+        @include SizeFormatter(100px, 100px);
+    }
+
 }
 
 @media (max-width:576px){

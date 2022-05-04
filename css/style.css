@@ -1,4 +1,36 @@
 @charset "UTF-8";
+/*SASS II, FUNCIONES E IMITACIONES DE BOOTSTRAP*/
+/*la extensión -v es de valhalla*/
+.primary-v {
+  background-color: #0d6efd; }
+
+.secondary-v {
+  background-color: #6c757d; }
+
+.succes-v {
+  background-color: #198754; }
+
+.danger-v {
+  background-color: #dc3545; }
+
+.warning-v {
+  background-color: #ffc107; }
+
+.m--1 {
+  margin: 0.25rem; }
+
+.m--2 {
+  margin: 0.5rem; }
+
+.m--3 {
+  margin: 1rem; }
+
+.m--4 {
+  margin: 1.5; }
+
+.m--5 {
+  margin: 3; }
+
 /* PSEUDOELEMENTOS */
 body::-webkit-scrollbar {
   width: 10px;
@@ -127,6 +159,10 @@ body::-webkit-scrollbar-thumb {
 .valhalla-footer-links:hover {
   color: white; }
 
+.img-boxes {
+  width: 150px;
+  height: 150px; }
+
 /* BACKGROUNDS */
 .parallax-hI {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/hI.jpg");
@@ -224,6 +260,9 @@ body::-webkit-scrollbar-thumb {
   .valhalla-footer {
     background-image: none;
     background-color: #212529;
+    height: 100px; }
+  .img-boxes {
+    width: 100px;
     height: 100px; } }
 
 @media (max-width: 576px) {
