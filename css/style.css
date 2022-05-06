@@ -187,7 +187,7 @@ body::-webkit-scrollbar-thumb {
   background-size: cover;
   background-attachment: fixed;
   background-position: center 50px;
-  height: 850px;
+  height: 140vh;
   color: white; }
 
 .valhalla-footer {
@@ -268,7 +268,9 @@ body::-webkit-scrollbar-thumb {
     margin: 0 7px; }
   .img-boxes {
     width: 90px;
-    height: 90px; } }
+    height: 90px; }
+  #formulario {
+    height: 120vh; } }
 
 @media (max-width: 400px) {
   .acerca-deskHeight {
