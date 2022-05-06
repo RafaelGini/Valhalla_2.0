@@ -22,7 +22,7 @@
     @include BG-behavior(center, 200px, fixed);
     @include D-FlexCenter(row);
     margin: 0;
-    height: 70px;
+    height: 160px;
     color: white;}
 
 .valhalla-footer-odin{
@@ -40,5 +40,4 @@
         rgba(0,0,0,.0),
         rgba(0,0,0,.0)
     );
-    border-top: 1px solid $negro-muy-opaco;
     background-position: center center;}

@@ -12,6 +12,9 @@
         width: 100%;
         @include D-FlexCenter(col);}
 
+    .valhalla-logo{
+        margin: 0;}
+
     .carousel-inner{
         max-height: 40vh;}
 
@@ -33,7 +36,6 @@
     .valhalla-footer{
         background-image: none;
         background-color: #212529;
-        height: 100px;
     }
 
     .img-boxes{
