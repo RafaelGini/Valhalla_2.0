@@ -52,17 +52,11 @@ body::-webkit-scrollbar-thumb {
 .valhalla-color {
   color: #944c00; }
 
-.box-shadow {
+.box-shadow, #heroes-index, .heroes-img {
   box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.5) !important; }
 
 .box-light-shadow {
   box-shadow: 0px 15px 400px rgba(255, 255, 255, 0.7) !important; }
-
-#heroes-index {
-  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.5) !important; }
-
-.heroes-img {
-  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.5) !important; }
 
 .valhalla-button {
   font-size: 1em;
@@ -164,14 +158,6 @@ body::-webkit-scrollbar-thumb {
   height: 150px; }
 
 /* BACKGROUNDS */
-.parallax-hI {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/hI.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center center;
-  color: white; }
-
 #contacto fieldset input:hover {
   background-color: rgba(200, 200, 200, 0.5); }
 
@@ -186,6 +172,14 @@ body::-webkit-scrollbar-thumb {
 
 #contacto fieldset ::placeholder {
   color: rgba(200, 200, 200, 0.7); }
+
+.parallax-hI {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/hI.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  color: white; }
 
 #formulario {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../images/fantasíaFuturista_1.jpg");

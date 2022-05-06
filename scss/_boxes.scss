@@ -21,11 +21,11 @@
 }
 
 #heroes-index{
-    @include boxShadow(4px, 4px, 20px, $negro-opaco);
+    @extend .box-shadow;
 }
 
 .heroes-img{
-    @include boxShadow(4px, 4px, 20px, $negro-opaco);
+    @extend .box-shadow;
 }
 
 .valhalla-button{

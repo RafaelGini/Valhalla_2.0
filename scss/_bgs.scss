@@ -1,28 +1,21 @@
 
-.parallax-hI{
-    @include BG-img-blur($negro-poco-opaco, "../images/hI.jpg");
-    @include BG-behavior(center, center, fixed);
-    color: white;
-}
 
-#contacto fieldset input:hover{
-    background-color:$blanco-opaco;;
-}
-
-#contacto fieldset input:focus{
-    background-color:$blanco-opaco;
-}
-
+#contacto fieldset input:hover{background-color:$blanco-opaco;}
+#contacto fieldset input:focus{background-color:$blanco-opaco;}
 #contacto fieldset textarea:hover{background-color: $blanco-opaco;}
 #contacto fieldset textarea:focus{background-color: $blanco-opaco;}
 #contacto fieldset ::placeholder{color: $blanco-poco-opaco;}
 
+.parallax-hI{
+    @include BG-img-blur($negro-poco-opaco, "../images/hI.jpg");
+    @include BG-behavior(center, center, fixed);
+    color: white;}
+    
 #formulario{
     @include BG-img-blur(rgba(0,0,0,.45), "../images/fantasíaFuturista_1.jpg");
     @include BG-behavior(center, 50px, fixed);
     height: 850px;
-    color: white;
-}
+    color: white;}
 
 .valhalla-footer{
     @include BG-img-blur($negro-poco-opaco, "../images/valhalla2.jpg");
@@ -30,8 +23,7 @@
     @include D-FlexCenter(row);
     margin: 0;
     height: 70px;
-    color: white;
-}
+    color: white;}
 
 .valhalla-footer-odin{
     @include BG-img-blur($negro-poco-opaco, "../images/odin2.jpg");}
@@ -49,5 +41,4 @@
         rgba(0,0,0,.0)
     );
     border-top: 1px solid $negro-muy-opaco;
-    background-position: center center;
-}
+    background-position: center center;}
