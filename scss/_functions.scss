@@ -3,15 +3,33 @@
     height: $height;
 }
 
-$arr: (
-    primary:#0d6efd,
-    secondary:#6c757d,
-    succes:#198754,
-    danger:#dc3545,
-    warning:#ffc107
-);
+@mixin boxShadow($x, $y, $expan, $color) {
+    box-shadow: $x $y $expan $color !important;
+}
 
-/*la extensión -v es de valhalla*/
+@mixin D-FlexCenter($col) {
+    display: flex;
+    @if $col == col{
+        flex-direction: column;}
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin BG-img-blur($color, $url) {
+    background-image: linear-gradient(0deg,$color,$color), url($url);
+}
+
+@mixin BG-behavior($xpos, $ypos, $attach) {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: $attach;
+    background-position: $xpos $ypos;
+}
+
+
+
+/*IMITACIÓN DE BOOTSTRAP*/
+$arr: (primary:#0d6efd, secondary:#6c757d, succes:#198754, danger:#dc3545, warning:#ffc107);
 
 @each $name, $color in $arr{
     .#{$name}-v{

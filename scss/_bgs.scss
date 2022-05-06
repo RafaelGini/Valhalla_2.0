@@ -1,93 +1,46 @@
-$negro-poco-opaco:rgba(0,0,0,.7);
-$negro-muy-opaco:rgba(0,0,0,.2);
-
 
 .parallax-hI{
-    background-image: linear-gradient(
-        0deg,
-        $negro-poco-opaco,
-        $negro-poco-opaco
-    )
-    ,url("../images/hI.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    @include BG-img-blur($negro-poco-opaco, "../images/hI.jpg");
+    @include BG-behavior(center, center, fixed);
     color: white;
 }
 
 #contacto fieldset input:hover{
-    background-color:rgba(200,200,200,.5);
+    background-color:$blanco-opaco;;
 }
 
 #contacto fieldset input:focus{
-    background-color:rgba(200,200,200,.5);
+    background-color:$blanco-opaco;
 }
 
-#contacto fieldset textarea:hover{background-color:rgba(200,200,200,.5);}
-#contacto fieldset textarea:focus{background-color:rgba(200,200,200,.5);}
-#contacto fieldset ::placeholder{color: rgba(200,200,200,.7);}
+#contacto fieldset textarea:hover{background-color: $blanco-opaco;}
+#contacto fieldset textarea:focus{background-color: $blanco-opaco;}
+#contacto fieldset ::placeholder{color: $blanco-poco-opaco;}
 
 #formulario{
+    @include BG-img-blur(rgba(0,0,0,.45), "../images/fantasíaFuturista_1.jpg");
+    @include BG-behavior(center, 50px, fixed);
     height: 850px;
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,.45),
-        rgba(0,0,0,.45)
-    )
-    ,url("../images/fantasíaFuturista_1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center 50px;
     color: white;
 }
 
 .valhalla-footer{
+    @include BG-img-blur($negro-poco-opaco, "../images/valhalla2.jpg");
+    @include BG-behavior(center, 200px, fixed);
+    @include D-FlexCenter(row);
     margin: 0;
     height: 70px;
-    background-image: linear-gradient(
-        0deg,
-        $negro-poco-opaco,
-        $negro-poco-opaco
-    )
-    ,url("../images/valhalla2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center 200px;
-    background-attachment: fixed;
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .valhalla-footer-odin{
-    background-image: linear-gradient(
-        0deg,
-        $negro-poco-opaco,
-        $negro-poco-opaco
-    )
-    ,url("../images/odin2.jpg");
-}
+    @include BG-img-blur($negro-poco-opaco, "../images/odin2.jpg");}
 
 .valhalla-footer-thor{
-    background-image: linear-gradient(
-        0deg,
-        $negro-poco-opaco,
-        $negro-poco-opaco
-    )
-    ,url("../images/thor.jpeg");
-}
+    @include BG-img-blur($negro-poco-opaco, "../images/thor.jpeg");}
 
 .valhalla-footer-hI{
-    background-image: linear-gradient(
-        0deg,
-        $negro-poco-opaco,
-        $negro-poco-opaco
-    )
-    ,url("../images/hI.jpg");
-}
+    @include BG-img-blur($negro-poco-opaco, "../images/hI.jpg");}
 
 .valhalla-footer-contacto{
     background-image: linear-gradient(

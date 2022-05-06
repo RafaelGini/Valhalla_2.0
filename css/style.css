@@ -1,6 +1,6 @@
 @charset "UTF-8";
-/*SASS II, FUNCIONES E IMITACIONES DE BOOTSTRAP*/
-/*la extensión -v es de valhalla*/
+/*MIXINS E IMITACION DE VALORES EN BOOTSRAP USANDO CICLOS EN SASS*/
+/*IMITACIÓN DE BOOTSTRAP*/
 .primary-v {
   background-color: #0d6efd; }
 
@@ -70,7 +70,7 @@ body::-webkit-scrollbar-thumb {
   padding: 8px 20px;
   border-radius: 15px;
   border: 1px solid rgba(0, 0, 0, 0.5);
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5) !important;
   color: white;
   background-color: #944c00;
   transition: all .5s; }
@@ -168,8 +168,8 @@ body::-webkit-scrollbar-thumb {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/hI.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
   background-attachment: fixed;
+  background-position: center center;
   color: white; }
 
 #contacto fieldset input:hover {
@@ -188,26 +188,26 @@ body::-webkit-scrollbar-thumb {
   color: rgba(200, 200, 200, 0.7); }
 
 #formulario {
-  height: 850px;
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../images/fantasíaFuturista_1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: center 50px;
+  height: 850px;
   color: white; }
 
 .valhalla-footer {
-  margin: 0;
-  height: 70px;
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/valhalla2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center 200px;
   background-attachment: fixed;
-  color: white;
+  background-position: center 200px;
   display: flex;
+  align-items: center;
   justify-content: center;
-  align-items: center; }
+  margin: 0;
+  height: 70px;
+  color: white; }
 
 .valhalla-footer-odin {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/odin2.jpg"); }
@@ -243,20 +243,20 @@ body::-webkit-scrollbar-thumb {
   .hI-deskHeight {
     height: auto; }
   .valhalla-footer {
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
-    background-position: center !important;
-    background-attachment: initial !important; }
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: initial;
+    background-position: center center; }
   .parallax-hI {
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
-    background-position: center !important;
-    background-attachment: initial !important; }
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: initial;
+    background-position: center center; }
   #formulario {
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
-    background-position: center !important;
-    background-attachment: initial !important; }
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: initial;
+    background-position: center center; }
   .valhalla-footer {
     background-image: none;
     background-color: #212529;

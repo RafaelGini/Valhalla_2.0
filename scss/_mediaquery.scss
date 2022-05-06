@@ -6,47 +6,29 @@
 
     .heroes-fila{
         width: 100% !important;
-        text-align: center;
-    }
+        text-align: center;}
 
     .valhalla-footer-container{
         width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
+        @include D-FlexCenter(col);}
 
     .carousel-inner{
-        max-height: 40vh;
-    }
+        max-height: 40vh;}
 
     .rango-icon{
-        width: 50px;
-    }
+        width: 50px;}
 
-    .hI-deskHeight{height: auto;}
+    .hI-deskHeight{
+        height: auto;}
     
     .valhalla-footer{
-        background-repeat: no-repeat !important;
-        background-size: cover !important;
-        background-position: center !important;
-        background-attachment: initial !important;
-    }
+        @include BG-behavior(center, center, initial);}
 
     .parallax-hI{
-        background-repeat: no-repeat !important;
-        background-size: cover !important;
-        background-position: center !important;
-        background-attachment: initial !important;
-    }
+        @include BG-behavior(center, center, initial);}
 
     #formulario{
-        background-repeat: no-repeat !important;
-        background-size: cover !important;
-        background-position: center !important;
-        background-attachment: initial !important;
-    }
+        @include BG-behavior(center, center, initial);}
 
     .valhalla-footer{
         background-image: none;
