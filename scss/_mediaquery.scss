@@ -10,10 +10,19 @@
 
     .valhalla-footer-container{
         width: 100%;
-        @include D-FlexCenter(col);}
+        @include D-FlexCenter(row);}
+
+    .valhalla-footer-links{
+        @include D-FlexCenter(col);
+        align-items: flex-start;
+        margin-left: 8px;
+        margin-right: 6%;
+    }
 
     .valhalla-logo{
-        margin: 0;}
+        margin: 0;
+        padding: 45px 12% 45px 0;
+        border-right: 1px solid white;}
 
     .carousel-inner{
         max-height: 40vh;}
@@ -25,18 +34,8 @@
         height: auto;}
     
     .valhalla-footer{
-        @include BG-behavior(center, center, initial);}
-
-    .parallax-hI{
-        @include BG-behavior(center, center, initial);}
-
-    #formulario{
-        @include BG-behavior(center, center, initial);}
-
-    .valhalla-footer{
-        background-image: none;
-        background-color: #212529;
-    }
+        height: 200px;
+        overflow: hidden;}
 
     .img-boxes{
         @include SizeFormatter(100px, 100px);
@@ -58,8 +57,31 @@
         @include SizeFormatter(90px, 90px);}
 
     #formulario{
-        height: 120vh;
+        height: 1000px;}
+    
+    .valhalla-logo img{
+        @include SizeFormatter(30px, 30px);;
     }
+    
+    .valhalla-logo-text{
+        font-size: 1.2em;
+        padding-left: 8px;
+    }
+
+    .valhalla-footer{
+        background-image: none;
+        background-color: #212529;
+    }
+
+    .parallax-hI{
+        @include BG-behavior(center, center, initial);}
+
+    #formulario{
+        @include BG-behavior(center, center, initial);}
+    
+    .valhalla-footer{
+        @include BG-behavior(center, center, initial);}
+
 }
 
 @media (max-width:400px){

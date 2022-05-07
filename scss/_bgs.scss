@@ -14,7 +14,7 @@
 #formulario{
     @include BG-img-blur(rgba(0,0,0,.45), "../images/fantasíaFuturista_1.jpg");
     @include BG-behavior(center, 50px, fixed);
-    height: 140vh;
+    height: 1200px;
     color: white;}
 
 .valhalla-footer{

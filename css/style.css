@@ -154,8 +154,8 @@ body::-webkit-scrollbar-thumb {
   color: white; }
 
 .img-boxes {
-  width: 150px;
-  height: 150px; }
+  width: 140px;
+  height: 140px; }
 
 /* BACKGROUNDS */
 #contacto fieldset input:hover {
@@ -187,7 +187,7 @@ body::-webkit-scrollbar-thumb {
   background-size: cover;
   background-attachment: fixed;
   background-position: center 50px;
-  height: 140vh;
+  height: 1200px;
   color: white; }
 
 .valhalla-footer {
@@ -226,11 +226,20 @@ body::-webkit-scrollbar-thumb {
   .valhalla-footer-container {
     width: 100%;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center; }
+  .valhalla-footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 8px;
+    margin-right: 6%; }
   .valhalla-logo {
-    margin: 0; }
+    margin: 0;
+    padding: 45px 12% 45px 0;
+    border-right: 1px solid white; }
   .carousel-inner {
     max-height: 40vh; }
   .rango-icon {
@@ -238,23 +247,8 @@ body::-webkit-scrollbar-thumb {
   .hI-deskHeight {
     height: auto; }
   .valhalla-footer {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: initial;
-    background-position: center center; }
-  .parallax-hI {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: initial;
-    background-position: center center; }
-  #formulario {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: initial;
-    background-position: center center; }
-  .valhalla-footer {
-    background-image: none;
-    background-color: #212529; }
+    height: 200px;
+    overflow: hidden; }
   .img-boxes {
     width: 100px;
     height: 100px; } }
@@ -270,7 +264,31 @@ body::-webkit-scrollbar-thumb {
     width: 90px;
     height: 90px; }
   #formulario {
-    height: 120vh; } }
+    height: 1000px; }
+  .valhalla-logo img {
+    width: 30px;
+    height: 30px; }
+  .valhalla-logo-text {
+    font-size: 1.2em;
+    padding-left: 8px; }
+  .valhalla-footer {
+    background-image: none;
+    background-color: #212529; }
+  .parallax-hI {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: initial;
+    background-position: center center; }
+  #formulario {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: initial;
+    background-position: center center; }
+  .valhalla-footer {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: initial;
+    background-position: center center; } }
 
 @media (max-width: 400px) {
   .acerca-deskHeight {
