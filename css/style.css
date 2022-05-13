@@ -47,16 +47,26 @@ body::-webkit-scrollbar-thumb {
 
 .rango-icon {
   width: 60px;
-  margin: 0 5px; }
+  margin: 0 5px;
+  transition: all 0.3s; }
+
+.rango-icon:hover {
+  transform: scale(1.1, 1.1); }
 
 .valhalla-color {
   color: #944c00; }
 
-.box-shadow, #heroes-index, .heroes-img {
+.box-shadow, #heroes-index, .heroes-img-container, .heroes-img {
   box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.5) !important; }
 
 .box-light-shadow {
   box-shadow: 0px 15px 400px rgba(255, 255, 255, 0.7) !important; }
+
+.heroes-img {
+  transition: all 0.3s; }
+
+.heroes-img:hover {
+  transform: scale(1.05, 1.05); }
 
 .valhalla-button {
   font-size: 1em;
@@ -70,7 +80,7 @@ body::-webkit-scrollbar-thumb {
   transition: all .5s; }
 
 .valhalla-button:hover {
-  background-color: #683b01;
+  background-color: #7c4600;
   border: 1px solid rgba(200, 200, 200, 0.5); }
 
 .hI-deskHeight {
@@ -154,8 +164,12 @@ body::-webkit-scrollbar-thumb {
   color: white; }
 
 .img-boxes {
-  width: 140px;
-  height: 140px; }
+  width: 130px;
+  height: 130px;
+  transition: all 0.3s; }
+
+.img-boxes:hover {
+  transform: scale(1.1, 1.1); }
 
 /* BACKGROUNDS */
 #contacto fieldset input:hover {

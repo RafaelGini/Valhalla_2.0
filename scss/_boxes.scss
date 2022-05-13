@@ -6,6 +6,11 @@
 .rango-icon{
     width: 60px;
     margin: 0 5px;
+    transition: all 0.3s;
+}
+
+.rango-icon:hover{
+    transform: scale(1.1, 1.1);
 }
 
 .valhalla-color{
@@ -24,8 +29,17 @@
     @extend .box-shadow;
 }
 
+.heroes-img-container{
+    @extend .box-shadow;
+}
+
 .heroes-img{
     @extend .box-shadow;
+    transition: all 0.3s;
+}
+
+.heroes-img:hover{
+    transform: scale(1.05, 1.05);
 }
 
 .valhalla-button{
@@ -134,5 +148,10 @@
 }
 
 .img-boxes{
-    @include SizeFormatter(140px, 140px);
+    @include SizeFormatter(130px, 130px);
+    transition: all 0.3s;
+}
+
+.img-boxes:hover{
+    transform: scale(1.1, 1.1);
 }
