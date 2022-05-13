@@ -35,11 +35,21 @@
 
 .heroes-img{
     @extend .box-shadow;
-    transition: all 0.3s;
 }
 
-.heroes-img:hover{
-    transform: scale(1.05, 1.05);
+@each $hero in stevejobs, alanturing, billgates, snakamoto{
+    .#{$hero}-i{
+        transition: all 0.3s;  
+    }
+    .#{$hero}-i:hover{
+        transform: scale(1.05, 1.05);
+    }
+    ##{$hero}{
+        @extend .#{$hero}-i; 
+    }
+    ##{$hero}:hover{
+        @extend .#{$hero}-i:hover;
+    }
 }
 
 .valhalla-button{

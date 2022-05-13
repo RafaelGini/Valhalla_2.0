@@ -62,10 +62,28 @@ body::-webkit-scrollbar-thumb {
 .box-light-shadow {
   box-shadow: 0px 15px 400px rgba(255, 255, 255, 0.7) !important; }
 
-.heroes-img {
+.stevejobs-i, #stevejobs {
   transition: all 0.3s; }
 
-.heroes-img:hover {
+.stevejobs-i:hover, #stevejobs:hover {
+  transform: scale(1.05, 1.05); }
+
+.alanturing-i, #alanturing {
+  transition: all 0.3s; }
+
+.alanturing-i:hover, #alanturing:hover {
+  transform: scale(1.05, 1.05); }
+
+.billgates-i, #billgates {
+  transition: all 0.3s; }
+
+.billgates-i:hover, #billgates:hover {
+  transform: scale(1.05, 1.05); }
+
+.snakamoto-i, #snakamoto {
+  transition: all 0.3s; }
+
+.snakamoto-i:hover, #snakamoto:hover {
   transform: scale(1.05, 1.05); }
 
 .valhalla-button {
